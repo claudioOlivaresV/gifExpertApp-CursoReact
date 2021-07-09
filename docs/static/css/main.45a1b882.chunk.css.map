@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/index.css"],"names":[],"mappings":"AAAA,EACE,mCACF,CAEA,MACE,gBAAiB,CACjB,UAAW,CACX,UACF","file":"main.45a1b882.chunk.css","sourcesContent":["* {\n  font-family:  Roboto ,Arial, sans-serif;\n}\n\ninput {\n  font-size: 1.2rem;\n  width: 100%;\n  color: gray;\n}\n"]}
