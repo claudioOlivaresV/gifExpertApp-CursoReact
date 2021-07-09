@@ -23,7 +23,7 @@ export const AddCategory = ({ setCategories }) => {
         e.preventDefault();
         console.log('enviado');
         if (inputValue.trim().length > 2) {
-            setCategories(category => [...category, inputValue]);
+            setCategories(category => [inputValue, ...category, ]);
             setInputValue('')
         }
 
@@ -32,7 +32,7 @@ export const AddCategory = ({ setCategories }) => {
         <form onSubmit={handleSubmit}>
             <TextField
                 id="standard-basic"
-                className=" my-3"
+                className=" my-3 px-2"
                 fullWidth
                 label="Busar"
                 type="text"

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { AddCategory } from './addCategory/AddCategory'
+import AppHeader from './appBar/AppHeader'
 import { GiftGrid } from './giftGrid/GiftGrid'
 export const GifExpertApp = () => {
     // const categories = ['One Puch', 'Samurai X', 'Dragon Ball']
@@ -13,13 +14,12 @@ export const GifExpertApp = () => {
     // }
     return (
         <>
-            <h1>GifExpertApp </h1>
-            <hr />
+          <AppHeader />
             {/* <button onClick={handleAdd}>Agregar</button> */}
             <AddCategory setCategories={setCategories}/>
             <ol>
                 {
-                    categories.slice(0).reverse().map((category) => 
+                    categories.map((category) => 
                     <GiftGrid  key={category} category={category}/>
                     )
                 }
