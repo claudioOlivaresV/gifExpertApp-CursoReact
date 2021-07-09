@@ -4,7 +4,7 @@ import { GiftGrid } from './giftGrid/GiftGrid'
 export const GifExpertApp = () => {
     // const categories = ['One Puch', 'Samurai X', 'Dragon Ball']
 
-    const [categories, setCategories] = useState(['Dragon Ball'])
+    const [categories, setCategories] = useState(['Dragon Ball Z'])
 
     // const handleAdd = () => {
     //     // setCategories([...categories, 'nueva'])
@@ -19,7 +19,7 @@ export const GifExpertApp = () => {
             <AddCategory setCategories={setCategories}/>
             <ol>
                 {
-                    categories.map((category) => 
+                    categories.slice(0).reverse().map((category) => 
                     <GiftGrid  key={category} category={category}/>
                     )
                 }
