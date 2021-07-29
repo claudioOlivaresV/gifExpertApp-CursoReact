@@ -66,6 +66,7 @@ export const AddCategory = ({ setCategories }) => {
                 value={inputValue}
                 onChange={handleInput}
             /> */}
+            <p>{inputValue } </p>
         </form>
     )
 }

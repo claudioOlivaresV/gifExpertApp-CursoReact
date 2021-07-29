@@ -4,6 +4,7 @@ import GridListTileBar from '@material-ui/core/GridListTileBar';
 import IconButton from '@material-ui/core/IconButton';
 import InfoIcon from '@material-ui/icons/Info';
 import GridListTile from '@material-ui/core/GridListTile';
+import PropTypes from 'prop-types';
 
 const useStyles = makeStyles((theme) => ({
 
@@ -30,11 +31,9 @@ export const GiftGridItem = ({id, title, url:{ url }}) => {
       </GridListTile>
     )
 
-    //     <div className="col-2">
-    //         <img src={url} alt={title} />
-    //         <p>{title}</p>
-            
-            
-    //     </div>
-    // )
+}
+
+GiftGridItem.prototype = {
+  title: PropTypes.string.isRequired,
+  url: PropTypes.object.isRequired,
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types';
 import { GiftGridItem } from '../giftGridItem/GiftGridItem';
 import { makeStyles } from '@material-ui/core/styles';
 import GridList from '@material-ui/core/GridList';
@@ -54,4 +55,8 @@ export const GiftGrid = ({ category }) => {
 
         </>
     )
+}
+
+GiftGrid.prototype = {
+    category: PropTypes.string.isRequired
 }

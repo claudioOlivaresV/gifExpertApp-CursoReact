@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing GifGrid should  1`] = `
+<Fragment>
+  <h3>
+     
+    Goku
+  </h3>
+  <WithStyles(LinearQuery) />
+  <div
+    className="makeStyles-root-1"
+  >
+    <WithStyles(ForwardRef(GridList))
+      className="makeStyles-gridList-2"
+      cols={2.5}
+    />
+  </div>
+</Fragment>
+`;

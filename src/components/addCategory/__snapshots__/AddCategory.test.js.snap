@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing in AddCategory should see Snapshot 1`] = `
+<form
+  onSubmit={[Function]}
+>
+  <WithStyles(ForwardRef(TextField))
+    InputProps={
+      Object {
+        "endAdornment": <WithStyles(ForwardRef(InputAdornment))
+          position="end"
+        >
+          <WithStyles(ForwardRef(IconButton))
+            aria-label="toggle password visibility"
+            onClick={[Function]}
+          >
+            <Memo />
+          </WithStyles(ForwardRef(IconButton))>
+        </WithStyles(ForwardRef(InputAdornment))>,
+        "startAdornment": <WithStyles(ForwardRef(InputAdornment))
+          position="start"
+        >
+          <Memo />
+        </WithStyles(ForwardRef(InputAdornment))>,
+      }
+    }
+    className=" my-3 px-2"
+    fullWidth={true}
+    id="standard-basic"
+    label="Busar"
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  <p>
+     
+  </p>
+</form>
+`;
