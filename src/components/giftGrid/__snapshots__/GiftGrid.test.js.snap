@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Testing GifGrid should  1`] = `
+exports[`Testing GifGrid Probar que en snapshot sea igual al grid 1`] = `
 <Fragment>
   <h3>
      
