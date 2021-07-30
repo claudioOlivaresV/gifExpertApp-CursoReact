@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Gif ExpertApp Probar snapshot 1`] = `
+<Fragment>
+  <WithStyles(SimpleAppBar) />
+  <AddCategory
+    setCategories={[Function]}
+  />
+  <ol>
+    <GiftGrid
+      category="Dragon Ball Z"
+      key="Dragon Ball Z"
+    />
+  </ol>
+</Fragment>
+`;

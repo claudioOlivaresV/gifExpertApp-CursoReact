@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas GiftGridItem debe de mostrar el componente correctamente 1`] = `
+<WithStyles(ForwardRef(GridListTile))
+  key="1"
+>
+  <img
+    alt="Un titulo"
+    src="https://localhost"
+  />
+  <WithStyles(ForwardRef(GridListTileBar))
+    actionIcon={
+      <WithStyles(ForwardRef(IconButton))
+        aria-label="info about Un titulo"
+        className="makeStyles-icon-1"
+      >
+        <Memo />
+      </WithStyles(ForwardRef(IconButton))>
+    }
+    title="Un titulo"
+  />
+</WithStyles(ForwardRef(GridListTile))>
+`;
